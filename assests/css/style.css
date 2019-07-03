@@ -6,14 +6,25 @@ body {
   margin-top: 20px;
   border: 0;
 }
+
 #logo {
   color: blue;
 }
-.card-body {
+.card-body  {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* .card-img-top {
+  image: 0,1,0
+} */
+.card-img{
+  width: 10px;
+  height: 10px;
 
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+   object-fit:scale-down;
+
+}
 .nav {
   background-color: orange;
   color: black;
